@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px 0px 0px 0px;
+    color: white;
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background-color: #382f6f;
+}
+
+.titulo {
+    padding-left: 2%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titutlo-nombre {
+    padding-left: 1%;
+}
+
+.buscador {
+    margin-left: auto;
+    padding-right: 2%;
+}
+
+.buscador form{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 300px;
+}
+
+.buscador input[type="text"] {
+    padding-right: 40px;
+    width: 100%;
+}
+
+.buscar {
+    position: absolute;
+    right: 0;
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search {
+    appearance: none;
+    border: none;
+    outline: none;
+}
+
+.enlaces-enlaces {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-bottom: 2%;
+}
+
+.enlaces-enlaces li {
+    padding-left: 1%;
+}
+
+.lista-categorias {
+    list-style: none;
+    padding-left: 0;
+}
+.categorias{
+    background-color: #483d8b;
+    padding: 1% 1% 1% 1%;
+}
+.categorias span{
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: aquamarine;
+}
+.contenido{
+    display: flex;
+    justify-content: space-evenly;
+}
