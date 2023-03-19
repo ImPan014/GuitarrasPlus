@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0px 0px 0px 0px;
     color: white;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 header {
@@ -90,19 +90,26 @@ header {
     padding-top: 10%;
     width: 200px;
     transition: all 0.3s ease;
+    color: black;
+    padding-left: 2%;
 }
 .lista-categorias a:hover {
     padding-left: 5%;
+    color: #382f6f;
 }
 
 .categorias {
-    background-color: #483d8b;
-    padding: 1% 1% 1% 1%;
+    background-color: #e0e0e0;
+    color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 .categorias span {
     font-weight: bold;
     font-size: 20px;
+    background-color: #8b8b8b;
+    width: 100%;
 }
 
 a {
@@ -110,9 +117,6 @@ a {
     color: white;
 }
 
-a:hover {
-    color: aquamarine;
-}
 
 .contenedor {
     display: flex;
