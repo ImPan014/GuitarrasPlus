@@ -28,7 +28,7 @@ header {
     padding-right: 2%;
 }
 
-.buscador form{
+.buscador form {
     display: flex;
     align-items: center;
     position: relative;
@@ -70,13 +70,21 @@ header {
     list-style: none;
     padding-left: 0;
 }
-.categorias{
+
+.lista-categorias a{
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.categorias {
     background-color: #483d8b;
     padding: 1% 1% 1% 1%;
 }
-.categorias span{
+
+.categorias span {
     font-weight: bold;
 }
+
 a {
     text-decoration: none;
     color: white;
@@ -85,7 +93,11 @@ a {
 a:hover {
     color: aquamarine;
 }
-.contenido{
+
+.contenedor {
     display: flex;
-    justify-content: space-evenly;
+}
+
+.categorias {
+    margin-left: 5%;
 }
