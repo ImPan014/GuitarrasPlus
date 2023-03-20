@@ -6,14 +6,21 @@ fetch(url)
     .then(response => response.json())
     .then(data => {
         // Seleccionar el elemento HTML
-        const tabla = document.getElementById('tabla-guitarras');
+        const guitarraDiv = document.getElementById('tabla-guitarras');
 
         // Recorrer los elementos del objeto
-        let html = '<tr><th>Nombre</th><th>Color</th><th>Precio</th></tr>';
+        let html = '';
         data.forEach(guitarra => {
-            html += `<tr><td>${guitarra.nombre}</td><td>${guitarra.color}</td><td>${guitarra.precio}</td></tr>`;
+            //html += `<tr><td>${guitarra.nombre}</td><td>${guitarra.color}</td><td>${guitarra.precio}</td></tr>`;
+            html += `
+            <div>
+            <h3>${guitarra.nombre}</h3>
+            <img src="" alt="">
+            <p>${guitarra.precio}</p>
+            <p>${guitarra.color}</p>
+            </div>`;
         });
 
         // Agregar el HTML generado
-        tabla.innerHTML = html;
+        guitarraDiv.innerHTML = html;
     });
