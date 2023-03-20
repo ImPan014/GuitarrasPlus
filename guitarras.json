@@ -1,0 +1,53 @@
+[
+    {
+      "nombre": "Gibson Les Paul",
+      "color": "Sunburst",
+      "precio": 2500
+    },
+    {
+      "nombre": "Fender Stratocaster",
+      "color": "Blanco",
+      "precio": 2000
+    },
+    {
+      "nombre": "PRS Custom 24",
+      "color": "Negro",
+      "precio": 3000
+    },
+    {
+      "nombre": "Ibanez RG",
+      "color": "Rojo",
+      "precio": 1500
+    },
+    {
+      "nombre": "Epiphone SG",
+      "color": "Cherry",
+      "precio": 800
+    },
+    {
+      "nombre": "Jackson Soloist",
+      "color": "Azul",
+      "precio": 1800
+    },
+    {
+      "nombre": "Gretsch White Falcon",
+      "color": "Blanco",
+      "precio": 4000
+    },
+    {
+      "nombre": "Gibson Explorer",
+      "color": "Negro",
+      "precio": 2200
+    },
+    {
+      "nombre": "ESP Horizon",
+      "color": "Blanco",
+      "precio": 2700
+    },
+    {
+      "nombre": "Schecter Hellraiser",
+      "color": "Negro",
+      "precio": 1200
+    }
+  ]
+  
