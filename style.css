@@ -133,11 +133,11 @@ a {
 }
 .slider{
     width: 100%;
-    height: 75%;
+    /* height: 75%; */
 }
 .slider img{
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 .destacados h2{
     margin-left: 5%;
