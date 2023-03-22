@@ -96,6 +96,7 @@ header {
 .lista-categorias a:hover {
     padding-left: 5%;
     color: #382f6f;
+    cursor: pointer;
 }
 
 .categorias {
@@ -117,7 +118,6 @@ a {
     color: white;
 }
 
-
 .contenedor {
     display: flex;
 }
@@ -133,12 +133,28 @@ a {
 }
 .slider{
     width: 100%;
-    /* height: 75%; */
 }
 .slider img{
     width: 100%;
-    /* height: 100%; */
 }
 .destacados h2{
     margin-left: 5%;
+}
+
+.tabla-guitarras{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.guitarra{
+    background-color: black;
+    flex-basis: 25%;
+    height: 500px;
+    margin: 10px;
+}
+
+.img-guitarra{
+    height: 375px;
+    width: 250px;
+    object-fit: cover;
 }

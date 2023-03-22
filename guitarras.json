@@ -2,52 +2,72 @@
     {
       "nombre": "Gibson Les Paul",
       "color": "Sunburst",
-      "precio": 2500
+      "precio": 2500,
+      "imagen": "resources/images/products/Gibson Les Paul.jpg",
+      "tipo": "electrica"
     },
     {
       "nombre": "Fender Stratocaster",
       "color": "Blanco",
-      "precio": 2000
+      "precio": 2000,
+      "imagen": "resources/images/products/Fender Stratocaster.jpg",
+      "tipo": "acustica"
     },
     {
       "nombre": "PRS Custom 24",
       "color": "Negro",
-      "precio": 3000
+      "precio": 3000,
+      "imagen": "resources/images/products/PRS Custom 24.jpg",
+      "tipo": "electrica"
     },
     {
       "nombre": "Ibanez RG",
       "color": "Rojo",
-      "precio": 1500
+      "precio": 1500,
+      "imagen": "resources/images/products/Ibanez RG.jpg",
+      "tipo": "clasica"
     },
     {
       "nombre": "Epiphone SG",
       "color": "Cherry",
-      "precio": 800
+      "precio": 800,
+      "imagen": "resources/images/products/Epiphone SG.jpg",
+      "tipo": "electrica"
     },
     {
       "nombre": "Jackson Soloist",
       "color": "Azul",
-      "precio": 1800
+      "precio": 1800,
+      "imagen": "resources/images/products/Jackson Soloist.jpg",
+      "tipo": "acustica"
     },
     {
       "nombre": "Gretsch White Falcon",
       "color": "Blanco",
-      "precio": 4000
+      "precio": 4000,
+      "imagen": "resources/images/products/PRS Custom 24.jpg",
+      "tipo": "electrica"
     },
     {
       "nombre": "Gibson Explorer",
       "color": "Negro",
-      "precio": 2200
+      "precio": 2200,
+      "imagen": "resources/images/products/PRS Custom 24.jpg",
+      "tipo": "electrica"
     },
     {
       "nombre": "ESP Horizon",
       "color": "Blanco",
-      "precio": 2700
+      "precio": 2700,
+      "imagen": "resources/images/products/PRS Custom 24.jpg",
+      "tipo": "resonadora"
     },
     {
       "nombre": "Schecter Hellraiser",
       "color": "Negro",
-      "precio": 1200
+      "precio": 1200,
+      "imagen": "resources/images/products/PRS Custom 24.jpg",
+      "tipo": "resonadora"
     }
   ]
   
